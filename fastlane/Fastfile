@@ -24,7 +24,9 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    run_tests
+    run_tests(
+      scheme: "MarsRover"
+    )
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"
