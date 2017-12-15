@@ -12,8 +12,13 @@
 		782110831FE2714600B91D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782110811FE2714600B91D36 /* Main.storyboard */; };
 		782110851FE2714600B91D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782110841FE2714600B91D36 /* Assets.xcassets */; };
 		782110881FE2714600B91D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782110861FE2714600B91D36 /* LaunchScreen.storyboard */; };
-		782110931FE2714600B91D36 /* MarsRoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782110921FE2714600B91D36 /* MarsRoverTests.swift */; };
-		7821109E1FE2714600B91D36 /* MarsRoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7821109D1FE2714600B91D36 /* MarsRoverUITests.swift */; };
+		782110AE1FE27CFC00B91D36 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782110AD1FE27CFC00B91D36 /* Rover.swift */; };
+		782110B01FE27D3E00B91D36 /* TestRover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782110AF1FE27D3E00B91D36 /* TestRover.swift */; };
+		782110B21FE2A02900B91D36 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782110B11FE2A02900B91D36 /* Commons.swift */; };
+		782110B41FE2A27400B91D36 /* TestCommons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782110B31FE2A27400B91D36 /* TestCommons.swift */; };
+		91451268D04662B6D9F3EC11 /* Pods_MarsRoverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650010585FE4182DBDB28EA2 /* Pods_MarsRoverTests.framework */; };
+		9B5502FCEDA1729187C2B633 /* Pods_MarsRover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A0B313C588C34144901801 /* Pods_MarsRover.framework */; };
+		E9F1ECB604A9DF5011F9ECA2 /* Pods_MarsRoverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E3DD4A0DD22DD416C53855 /* Pods_MarsRoverUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44E3DD4A0DD22DD416C53855 /* Pods_MarsRoverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsRoverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DF43BB863A0A9D97A5B022 /* Pods-MarsRover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsRover.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsRover/Pods-MarsRover.release.xcconfig"; sourceTree = "<group>"; };
+		650010585FE4182DBDB28EA2 /* Pods_MarsRoverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsRoverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6822469FA5371BDA33A7093C /* Pods-MarsRoverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsRoverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsRoverTests/Pods-MarsRoverTests.release.xcconfig"; sourceTree = "<group>"; };
 		7821107A1FE2714600B91D36 /* MarsRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7821107D1FE2714600B91D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7821107F1FE2714600B91D36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +51,17 @@
 		782110871FE2714600B91D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		782110891FE2714600B91D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7821108E1FE2714600B91D36 /* MarsRoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsRoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		782110921FE2714600B91D36 /* MarsRoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverTests.swift; sourceTree = "<group>"; };
 		782110941FE2714600B91D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		782110991FE2714600B91D36 /* MarsRoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsRoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7821109D1FE2714600B91D36 /* MarsRoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverUITests.swift; sourceTree = "<group>"; };
-		7821109F1FE2714600B91D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782110AD1FE27CFC00B91D36 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		782110AF1FE27D3E00B91D36 /* TestRover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRover.swift; sourceTree = "<group>"; };
+		782110B11FE2A02900B91D36 /* Commons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commons.swift; sourceTree = "<group>"; };
+		782110B31FE2A27400B91D36 /* TestCommons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCommons.swift; sourceTree = "<group>"; };
+		81A0B313C588C34144901801 /* Pods_MarsRover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsRover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		837168843BFE14B4DCB9D14C /* Pods-MarsRoverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsRoverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsRoverUITests/Pods-MarsRoverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6E18D514BE3697D07B4967D /* Pods-MarsRover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsRover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsRover/Pods-MarsRover.debug.xcconfig"; sourceTree = "<group>"; };
+		B5265B3B8E23D48FD46437B8 /* Pods-MarsRoverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsRoverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsRoverTests/Pods-MarsRoverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC5680B794D886897F3094B8 /* Pods-MarsRoverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsRoverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsRoverUITests/Pods-MarsRoverUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5502FCEDA1729187C2B633 /* Pods_MarsRover.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91451268D04662B6D9F3EC11 /* Pods_MarsRoverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +85,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F1ECB604A9DF5011F9ECA2 /* Pods_MarsRoverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14B81DD117828EEBF6E3CBFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81A0B313C588C34144901801 /* Pods_MarsRover.framework */,
+				650010585FE4182DBDB28EA2 /* Pods_MarsRoverTests.framework */,
+				44E3DD4A0DD22DD416C53855 /* Pods_MarsRoverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		694F1BC6B5DF596F9A10CE52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6E18D514BE3697D07B4967D /* Pods-MarsRover.debug.xcconfig */,
+				61DF43BB863A0A9D97A5B022 /* Pods-MarsRover.release.xcconfig */,
+				B5265B3B8E23D48FD46437B8 /* Pods-MarsRoverTests.debug.xcconfig */,
+				6822469FA5371BDA33A7093C /* Pods-MarsRoverTests.release.xcconfig */,
+				837168843BFE14B4DCB9D14C /* Pods-MarsRoverUITests.debug.xcconfig */,
+				FC5680B794D886897F3094B8 /* Pods-MarsRoverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		782110711FE2714600B91D36 = {
 			isa = PBXGroup;
 			children = (
 				7821107C1FE2714600B91D36 /* MarsRover */,
 				782110911FE2714600B91D36 /* MarsRoverTests */,
-				7821109C1FE2714600B91D36 /* MarsRoverUITests */,
 				7821107B1FE2714600B91D36 /* Products */,
+				694F1BC6B5DF596F9A10CE52 /* Pods */,
+				14B81DD117828EEBF6E3CBFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +139,7 @@
 		7821107C1FE2714600B91D36 /* MarsRover */ = {
 			isa = PBXGroup;
 			children = (
+				782110AB1FE2751400B91D36 /* Model */,
 				7821107D1FE2714600B91D36 /* AppDelegate.swift */,
 				7821107F1FE2714600B91D36 /* ViewController.swift */,
 				782110811FE2714600B91D36 /* Main.storyboard */,
@@ -110,19 +153,28 @@
 		782110911FE2714600B91D36 /* MarsRoverTests */ = {
 			isa = PBXGroup;
 			children = (
-				782110921FE2714600B91D36 /* MarsRoverTests.swift */,
+				782110AC1FE2751F00B91D36 /* Model */,
 				782110941FE2714600B91D36 /* Info.plist */,
 			);
 			path = MarsRoverTests;
 			sourceTree = "<group>";
 		};
-		7821109C1FE2714600B91D36 /* MarsRoverUITests */ = {
+		782110AB1FE2751400B91D36 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7821109D1FE2714600B91D36 /* MarsRoverUITests.swift */,
-				7821109F1FE2714600B91D36 /* Info.plist */,
+				782110AD1FE27CFC00B91D36 /* Rover.swift */,
+				782110B11FE2A02900B91D36 /* Commons.swift */,
 			);
-			path = MarsRoverUITests;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		782110AC1FE2751F00B91D36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				782110AF1FE27D3E00B91D36 /* TestRover.swift */,
+				782110B31FE2A27400B91D36 /* TestCommons.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +184,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782110A21FE2714600B91D36 /* Build configuration list for PBXNativeTarget "MarsRover" */;
 			buildPhases = (
+				BE5C5E7210D77C1F0AF64C72 /* [CP] Check Pods Manifest.lock */,
 				782110761FE2714600B91D36 /* Sources */,
 				782110771FE2714600B91D36 /* Frameworks */,
 				782110781FE2714600B91D36 /* Resources */,
+				71B22BDF889BEDC399B34DB4 /* [CP] Embed Pods Frameworks */,
+				38FD17B8A2CF9F804126CC5B /* [CP] Copy Pods Resources */,
+				78B5693A1FE3DE7A00DEEC4D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782110A51FE2714600B91D36 /* Build configuration list for PBXNativeTarget "MarsRoverTests" */;
 			buildPhases = (
+				D6A495CB4F5570D1FD6B2AB9 /* [CP] Check Pods Manifest.lock */,
 				7821108A1FE2714600B91D36 /* Sources */,
 				7821108B1FE2714600B91D36 /* Frameworks */,
 				7821108C1FE2714600B91D36 /* Resources */,
+				F69D9F6125F3D7F879171F99 /* [CP] Embed Pods Frameworks */,
+				2D70D5D9989C4176CBD73528 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782110A81FE2714600B91D36 /* Build configuration list for PBXNativeTarget "MarsRoverUITests" */;
 			buildPhases = (
+				E45F6B953D2428B1855B6552 /* [CP] Check Pods Manifest.lock */,
 				782110951FE2714600B91D36 /* Sources */,
 				782110961FE2714600B91D36 /* Frameworks */,
 				782110971FE2714600B91D36 /* Resources */,
+				1C0F6021B121026925C7E595 /* [CP] Embed Pods Frameworks */,
+				C41F429BE4CE66AAB541727A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,10 +255,11 @@
 				TargetAttributes = {
 					782110791FE2714600B91D36 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					7821108D1FE2714600B91D36 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 782110791FE2714600B91D36;
 					};
@@ -254,13 +317,175 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C0F6021B121026925C7E595 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarsRoverUITests/Pods-MarsRoverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D70D5D9989C4176CBD73528 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarsRoverTests/Pods-MarsRoverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38FD17B8A2CF9F804126CC5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarsRover/Pods-MarsRover-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71B22BDF889BEDC399B34DB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarsRover/Pods-MarsRover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B5693A1FE3DE7A00DEEC4D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
+		};
+		BE5C5E7210D77C1F0AF64C72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsRover-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C41F429BE4CE66AAB541727A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarsRoverUITests/Pods-MarsRoverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6A495CB4F5570D1FD6B2AB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsRoverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E45F6B953D2428B1855B6552 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsRoverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69D9F6125F3D7F879171F99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarsRoverTests/Pods-MarsRoverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		782110761FE2714600B91D36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782110B21FE2A02900B91D36 /* Commons.swift in Sources */,
 				782110801FE2714600B91D36 /* ViewController.swift in Sources */,
 				7821107E1FE2714600B91D36 /* AppDelegate.swift in Sources */,
+				782110AE1FE27CFC00B91D36 /* Rover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +493,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782110931FE2714600B91D36 /* MarsRoverTests.swift in Sources */,
+				782110B41FE2A27400B91D36 /* TestCommons.swift in Sources */,
+				782110B01FE27D3E00B91D36 /* TestRover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +502,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7821109E1FE2714600B91D36 /* MarsRoverUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +649,16 @@
 		};
 		782110A31FE2714600B91D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E18D514BE3697D07B4967D /* Pods-MarsRover.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MarsRover/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.MarsRover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,13 +666,16 @@
 		};
 		782110A41FE2714600B91D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DF43BB863A0A9D97A5B022 /* Pods-MarsRover.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MarsRover/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.MarsRover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,14 +683,17 @@
 		};
 		782110A61FE2714600B91D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5265B3B8E23D48FD46437B8 /* Pods-MarsRoverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MarsRoverTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.MarsRoverTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsRover.app/MarsRover";
@@ -468,9 +702,11 @@
 		};
 		782110A71FE2714600B91D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6822469FA5371BDA33A7093C /* Pods-MarsRoverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MarsRoverTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +720,7 @@
 		};
 		782110A91FE2714600B91D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837168843BFE14B4DCB9D14C /* Pods-MarsRoverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +736,7 @@
 		};
 		782110AA1FE2714600B91D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC5680B794D886897F3094B8 /* Pods-MarsRoverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
